@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			a{   
+				text-decoration: none;
+				color:black;
+				display:block; 
+				height:50px;
+				width:100px;
+				background:#8F8F8F;
+				text-align: center;
+				line-height: 50px;
+				font-size: 20px;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<input id="b" type="text">
+		<input id="c" type="password">
+		
+		<a id="a" ">登录</a>
+	</body>
+	<script>
+		var a=document.getElementById('a');
+		var b=document.getElementById('b');
+		var c=document.getElementById('c');
+		a.onclick=function(){
+			if((b.value=="wode")&&(c.value=="88888888")){
+				a.setAttribute('href','index.html');
+			}
+			if((b.value=="wode")&&(c.value=="888888")){
+				a.setAttribute('href','产品中心.html');
+			}
+		
+		}
+	</script>
+</html>

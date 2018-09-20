@@ -1,0 +1,244 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #F0F8FF;
+}
+
+.nav {
+	position: relative;
+	width: 2560px;
+	height: 85px;
+	border-bottom: 1px solid #ccc;
+}
+
+.nav img {
+	position: absolute;
+	padding-left: 280px;
+}
+
+.nav p {
+	padding-top: 13px;
+	padding-left: 370px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.first {
+	position: absolute;
+	top: -5px;
+	left: 960px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 85px;
+	width: 50px;
+	border-bottom: 5px solid blue;
+}
+
+.slide {
+	margin-top: 0;
+	width: 2560px;
+	height: 609px;
+	position: relative;
+	overflow: hidden;
+}
+
+.box {
+	position: absolute;
+	width: 10240px;
+	height: 609px;
+}
+
+.box li {
+	list-style: none;
+	float: left;
+}
+
+.box li img {
+	width: 2560px;
+	height: 609px;
+	display: block;
+}
+
+#buttons {
+	position: absolute;
+	top: 609px;
+	left: 710px;
+	width: 100px;
+	height: 13px;
+	z-index: 2;
+}
+
+#buttons span {
+	margin-right: 15px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	float: left;
+	height: 13px;
+	width: 13px;
+	background: white;
+}
+
+#buttons .on {
+	background: #3399ff;
+}
+
+.login {
+	position: absolute;
+	left: 1000px;
+	top: 200px;
+	z-index: 999px;
+	background: white;
+	border: 1px solid #ccc;
+	box-shadow: 2px #ccc;
+	width: 240px;
+	height: 240px;
+	padding: 30px 30px;
+}
+
+.welcome {
+	color: #6699ff;
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+#input {
+	width: 235px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	height: 30px;
+	font-size: 17px;
+	outline-color: dodgerblue;
+}
+
+#inputCode {
+	float: left;
+	width: 100px;
+	height: 30px;
+	font-size: 17px;
+	padding-left: 5px;
+}
+
+.code {
+	letter-spacing: 3px;
+	color: black;
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 19px;
+	line-height: 30px;
+	margin-left: 10px;
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ccc;
+	background: #ccffcc;
+}
+
+.link {
+	/*text-align: center;*/
+	font-size: 20px;
+	margin-top: 50px;
+	/*line-height: 45px;*/
+	width: 235px;
+	/*background:#66cc66;*/
+	height: 45px;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	display: block;
+}
+
+.a {
+	display: block;
+	height: 45px;
+	width: 70px;
+	border: 1px solid red;
+	overflow: hidden;
+	float: left;
+	background: darkorange;
+	margin-left: 30px;
+	text-align: center;
+	line-height: 45px;
+	cursor: pointer;
+}
+
+.mo {
+	position: absolute;
+	width: 1600px;
+	height: 800px;
+	top: 0;
+	left: 0;
+	;
+	background: black;
+	opacity: 0.5;
+	z-index: 10;
+	display: none;
+}
+
+#za {
+	position: absolute;
+	width: 450px;
+	height: 300px;
+	top: 250px;
+	left: 500px;
+	z-index: 1000;
+	
+}
+
+.sss {
+	display: inline;
+}
+
+.sss>p {
+	display: inline;
+	opacity: 0;
+	font-size: 0.6em;
+}
+
+#ssd {
+	margin-left: 80px;
+	font-size: 0.6em;
+	opacity: 0;
+}
+
+#coun {
+	margin-left: 80px;
+	opacity: 0;
+}
+
+.ll {
+	display: inline;
+	height: 25px;
+	width: 50px;
+	background: red;
+	text-align: center;
+	line-height: 25px;
+	margin-left: 1px;
+}
+
+.sp {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid red;
+	background: orange;
+	width: 450px;
+	height: 300px;
+	color: black;
+	border-radius: 15px;
+	text-shadow: 2px 2px white;
+	z-index: 1000;
+}
+
+#moo {
+	height: 20px;
+	width: 20px;
+	background: white;
+	display: block;
+	margin-top: -40px;
+	margin-left: 400px;
+}
