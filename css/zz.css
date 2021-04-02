@@ -7,7 +7,8 @@ a{
 	color:black;
 }
 body{
-	widtyh:1600px;
+	width:1600px;
+	margin: auto;
 }
 .head{
 	height:200px;
@@ -102,13 +103,20 @@ body{
 .zong{
 	width:1600px;
 	height:2730px;
-	border:1px solid red;
+	border:1px solid transparent;
 }
 .lun{
 	height:520px;
-	width:100%;
+	width:1600px;
+	overflow: hidden;
 	
 	position: absolute;
+}
+.lunifa{
+	position: relative;
+	height:520px;
+	width:1600px;
+	overflow: hidden;
 }
 .lun1{
 	height: 475px;
@@ -145,7 +153,7 @@ body{
 }
 .lun4{
 	height:40px;
-	width:100%;
+	width:1600px;
 	border:2px solid green;
     position: absolute;
     margin-top:475px;
@@ -315,7 +323,7 @@ body{
 }
 .bo4{
 	height:400px;
-	width: 100%;
+	width: 1600px;
 	margin-left:1400px;
 	overflow: hidden;
 	transition: all 2s; 

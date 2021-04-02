@@ -5,6 +5,8 @@
 
 body {
 	background: #F0F8FF;
+	width: 1600px;
+	margin: auto;
 }
 
 .nav {
